@@ -15,7 +15,7 @@
 	};
 </script>
 
-<section class="wedding-location en">
+<section class="wedding-location section-max-width en">
 	<img src={waveSectionCover} class="wave-cover-top-img" />
 	<h2 class="location-heading">Location</h2>
 

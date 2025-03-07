@@ -8,7 +8,7 @@
 	import saturdayCol from '$lib/assets/calendar/calendar-saturday.svg';
 </script>
 
-<section class="calendar-wedding-date en">
+<section class="calendar-wedding-date section-max-width en">
 	<h2 class="calendar-heading">June</h2>
 	<div class="calendar-body">
 		<img class="week-col" src={sundayCol} />

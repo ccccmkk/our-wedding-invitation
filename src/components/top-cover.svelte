@@ -17,7 +17,7 @@
 	}
 </script>
 
-<section style:height={`${sectionHeight}px`} class="top-cover">
+<section style:height={`${sectionHeight}px`} class="top-cover section-max-width">
 	<div class="confetti-area">
 		<Confetti
 			x={[-5, 5]}
@@ -58,6 +58,8 @@
 		background-repeat: no-repeat;
 		background-position: center center;
 		background-size: cover;
+
+		
 	}
 	.confetti-area {
 		position: absolute;

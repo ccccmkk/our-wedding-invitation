@@ -8,7 +8,7 @@
     </svg>`;
 </script>
 
-<section class="invitation-message">
+<section class="invitation-message section-max-width">
 	<div class="invitation-message__top">
 		<div>
 			{#if localeStore.isKr}

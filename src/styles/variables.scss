@@ -1,16 +1,21 @@
-$primary-color: #B99493;
-$white: #FFF;
-$bg-color-1: #EFEAE4;
-$bg-color-2: #F5F3F1;
+$primary-color: #b99493;
+$white: #fff;
+$bg-color-1: #efeae4;
+$bg-color-2: #f5f3f1;
 $font-color-default: #525252;
-$font-color-heading: #B99493;
+$font-color-heading: #b99493;
 
-$mobile-sm: "(max-width: 380px)";
-$mobile-md: "(min-width: 381px) and (max-width: 410px)";
-$mobile-lg: "(min-width: 411px)";
+$mobile-sm: '(max-width: 380px)';
+$mobile-md: '(min-width: 381px) and (max-width: 410px)';
+$mobile-lg: '(min-width: 411px)';
 
 @mixin for-range($query) {
-  @media #{$query} {
-    @content;
-  }
+	@media #{$query} {
+		@content;
+	}
+}
+
+@mixin set-section-max-width {
+	max-width: 600px;
+	margin: auto;
 }
